@@ -1,0 +1,30 @@
+.logo{
+    margin:0.7%;
+    width: 2%;
+   
+}
+    
+
+nav .all-tab {
+    background-color: #867070;
+    border: none;
+    
+    
+    
+}
+nav .tab {
+    text-align: center;
+    font-size: larger;
+    display: flex;
+    font-weight: 800;
+    flex-direction: column;
+    justify-content:space-evenly;
+}
+nav .tab li{
+    margin-right: 5%;
+}
+nav .tab li:hover{
+    text-decoration: underline;
+    font-size: large;
+
+}
