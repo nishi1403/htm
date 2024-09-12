@@ -3,9 +3,9 @@ import '../Style/Footer.css'
 const Footer = () => {
   return (
     <div className='footer'>
-      <i>Copyrights @2024 </i>
+      <i>&copy;2024-developed by quad squad </i>
       <br/>
-      <b>QUAD SQAUD</b>
+      <br/><br/>
     </div>
   )
 }

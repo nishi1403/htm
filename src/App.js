@@ -6,6 +6,11 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Sections from './Components/Sections';
 import Contact from './Components/Contact';
+import Regular from './Components/Regular';
+import Seasonal from './Components/Seasonal';
+import Potery from './Components/Potery';
+import Artistic from './Components/Artistic';
+import Food from './Components/Food';
 
 
 const App = () => {
@@ -20,6 +25,11 @@ const App = () => {
       <Route path="/about" element={<About/>}/>
       <Route path="/sections" element={<Sections/>}/>
       <Route path="/contact" element={<Contact/>}/>
+      <Route path="/regular" element={<Regular/>}/>
+      <Route path="/seasonal" element={<Seasonal/>}/>
+      <Route path='/potery' element={<Potery/>}/>
+      <Route path='/artistic' element={<Artistic/>}/>
+      <Route path='/food' element={<Food/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>
