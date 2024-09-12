@@ -10,9 +10,13 @@ const Home = () => {
     <>
     <div id="home">
     <Hero/>
+    <br/>
     <About/>
+    <br/>
     <Sections/>
+    <br/>
     <Contact/>
+    <br/>
     </div>
     </>
   )
