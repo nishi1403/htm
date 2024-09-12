@@ -1,0 +1,17 @@
+.sec{
+    width: 100%;
+}
+.img-sec{
+    text-align: center;
+    padding: 2%;
+}
+.img-sec img{
+    width: 80%;
+    border-radius: 20px;
+}
+.sec h1{
+    text-align: center;
+}
+.sec h3{
+    text-align: center;
+}
