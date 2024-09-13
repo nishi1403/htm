@@ -1,5 +1,63 @@
+/* Make the hero carousel full height */
+.hero {
+  position: relative;
+  height: 100vh; /* Full height of the viewport */
+  width: 100%; /* Full width */
+}
 
-.hero img{
-    height: 60vh;
-    
+.hero .carousel-inner {
+  height: 100%; /* Ensures that the images fill the full height */
+}
+
+.hero img {
+  height: 100vh; /* Full height of the viewport for each image */
+  object-fit: cover; /* Ensures the image covers the whole space without distortion */
+  width: 100%; /* Full width of the image */
+  transition: transform 0.5s ease, filter 0.5s ease;
+}
+
+/* Hover effect for images */
+.hero img:hover {
+  transform: scale(1.05);
+  filter: brightness(1.1);
+}
+
+/* Custom styling for carousel captions */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-caption h5 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.carousel-caption p {
+  font-size: 1.5rem;
+}
+
+/* Add fade transition between slides */
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+/* Control button styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
