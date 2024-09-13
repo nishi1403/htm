@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 import hand from './Images/hand.png'
 import '../Style/Header.css'
 
@@ -25,7 +25,7 @@ const Header = () => {
         <li className="nav-item">
           <AnchorLink className="nav-link" href="#about">About</AnchorLink>
         </li>
-        
+
         <li className="nav-item">
           <AnchorLink className="nav-link" href="#contact">Contact</AnchorLink>
         </li>

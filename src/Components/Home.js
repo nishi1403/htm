@@ -2,7 +2,7 @@ import React from 'react'
 import About from './About'
 import Sections from './Sections'
 import Contact from './Contact'
-
+import Header from './Header'
 import Information from './Information'
 import Carousel from './Carousel'
 
@@ -11,6 +11,7 @@ const Home = () => {
   return (
     <>
     <div id="home">
+      <Header/>
     <Carousel/>
     <br/>
     <Information/><br/>
