@@ -11,6 +11,7 @@ import Seasonal from './Components/Seasonal';
 import Potery from './Components/Potery';
 import Artistic from './Components/Artistic';
 import Food from './Components/Food';
+import Flower from './Components/Flower';
 
 
 const App = () => {
@@ -30,6 +31,7 @@ const App = () => {
       <Route path='/potery' element={<Potery/>}/>
       <Route path='/artistic' element={<Artistic/>}/>
       <Route path='/food' element={<Food/>}/>
+      <Route path='/flower' element={<Flower/>}/>
     </Routes>
     <Footer/>
     </BrowserRouter>

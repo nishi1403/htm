@@ -8,7 +8,7 @@ const About = () => {
         <h1>ABOUT US</h1>
         <div className="container">
           <div className="row">
-            <div className="col col-sm-12 col-lg-6">
+            <div className="col col-xxl-6 col-12">
               <div className="content">
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
@@ -27,7 +27,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="col col-sm-12 col-lg-6">
+            <div className="col col-xxl-6 col-12">
               <div className="image-about">
                 <img src={h2}/>
               </div>
