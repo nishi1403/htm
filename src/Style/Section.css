@@ -1,17 +1,85 @@
 .sec{
     width: 100%;
 }
-.img-sec{
-    text-align: center;
-    padding: 2%;
-}
-.img-sec img{
-    width: 100%;
-    border-radius: 20px;
-}
+
 .sec h1{
     text-align: center;
 }
 .sec h3{
     text-align: center;
+}
+.col{
+    margin-bottom:5%;
+}
+.vendor-card {
+    position: relative;
+    
+
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+.vendor-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.vendor-info {
+   
+    bottom: 0;
+    background-color: rgba(255, 204, 128, 0.8);
+
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+/* Hover Effect to Show Phone Number */
+/* Vendor Cards */
+.vendor-card {
+    position: relative;
+    
+    
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.vendor-card img {
+   
+    object-fit: cover;
+    transition: filter 0.3s ease-in-out;
+}
+
+/* Hover Effect to Lighten Image and Show Phone Number */
+/* Vendor Cards */
+.vendor-card {
+    position: relative;
+    
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+.vendor-card img {
+   
+    object-fit: cover;
+    transition: filter 0.3s ease-in-out;
+}
+
+/* Hover Effect to Darken Image and Show Phone Number */
+.vendor-card:hover {
+    transform: scale(1.05);
+}
+.vendor-card:hover img {
+    filter: brightness(0.7); /* Darken the image (light black effect) */
+}
+.vendor-card:hover::after {
+    
+    
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 229, 204, 0.9);
+    color: #080808;
+    
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }

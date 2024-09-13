@@ -10,54 +10,78 @@ const Sections = () => {
         <h1>CATEGORIES</h1>
         <div className="container">
           <div className="row">
-            <div className="col col-sm-12  col-lg-4">
-              <div className="img-sec">
-                <Link to="/artistic">
-                  <img src={h2} />
+            <div className="col col-sm-12  col-xl-4">
+              <div className="vendor-card">
+                <Link to="/food">
+                  <img src={h2} alt="Tiffin Services" />
                 </Link>
-                <h3>ARTISTIC</h3>
+                <div className="vendor-info">
+                  <p>Tiffin Services</p>
+                </div>
               </div>
             </div>
-            <div className="col col-sm-12  col-lg-4">
-              <div className="img-sec">
-                <Link to="/potery">
-                  <img src={h2} />
+            <br />
+            <br />
+            <div className="col col-sm-12  col-xl-4">
+              <div className="vendor-card">
+                <Link to="/seasonal">
+                  <img src={h2} alt="Tiffin Services" />
                 </Link>
-                <h3>POTERY</h3>
+                <div className="vendor-info">
+                  <p>Seasonal</p>
+                </div>
               </div>
             </div>
-            <div className="col col-sm-12  col-lg-4">
-              <div className="img-sec">
+            <br />
+            <br />
+            <div className="col col-sm-12  col-xl-4">
+              <div className="vendor-card">
                 <Link to="/regular">
-                  <img src={h2} />
+                  <img src={h2} alt="Tiffin Services" />
                 </Link>
-                <h3>REGULAR</h3>
+                <div className="vendor-info">
+                  <p>Regular</p>
+                </div>
               </div>
             </div>
           </div>
+
+          <br />
+          <br />
+          <br />
           <div className="row">
-            <div className="col col-sm-12  col-lg-4">
-              <div className="img-sec">
-                <Link to="/food">
-                  <img src={h2} />
+            <div className="col col-sm-12  col-xl-4">
+              <div className="vendor-card">
+                <Link to="/potery">
+                  <img src={h2} alt="Tiffin Services" />
                 </Link>
-                <h3>TIFFIN AND EATERY</h3>
+                <div className="vendor-info">
+                  <p>Potery</p>
+                </div>
               </div>
             </div>
-            <div className="col col-sm-12  col-lg-4">
-              <div className="img-sec">
+            <br />
+            <br />
+            <div className="col col-sm-12  col-xl-4">
+              <div className="vendor-card">
                 <Link to="/flower">
-                  <img src={h2} />
+                  <img src={h2} alt="Tiffin Services" />
                 </Link>
-                <h3>FLOWERS</h3>
+                <div className="vendor-info">
+                  <p>Flower</p>
+                </div>
               </div>
             </div>
-            <div className="col col-sm-12  col-lg-4">
-              <div className="img-sec">
-                <Link to="/seasonal">
-                  <img src={h2} />
+            <br />
+            <br />
+            <div className="col col-sm-12  col-xl-4">
+              <div className="vendor-card">
+                <Link to="/artistic">
+                  <img src={h2} alt="Tiffin Services" />
                 </Link>
-                <h3>SEASONAL</h3>
+                <div className="vendor-info">
+                  <p>Artistic</p>
+                </div>
               </div>
             </div>
           </div>
