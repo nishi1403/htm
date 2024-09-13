@@ -2,15 +2,16 @@ import React from 'react'
 import About from './About'
 import Sections from './Sections'
 import Contact from './Contact'
-import Hero from './Hero'
+
 import Information from './Information'
+import Carousel from './Carousel'
 
 
 const Home = () => {
   return (
     <>
     <div id="home">
-    <Hero/>
+    <Carousel/>
     <br/>
     <Information/><br/>
     <Sections/>

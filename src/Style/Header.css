@@ -24,7 +24,12 @@ nav .tab li{
     margin-right: 5%;
 }
 nav .tab li:hover{
+    border: 1px solid black;
+    
     text-decoration: underline;
+    border-radius: 10px;
+    background-color: rgba(251, 217, 172, 0.848);
+    box-shadow: 2px 1px 2px 1px #888888;
     font-size: large;
 
 }
