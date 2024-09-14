@@ -1,9 +1,12 @@
 .logo{
     margin:0.7%;
     width: 2%;
+    
    
 }
-    
+b{
+    font-family: "Playwrite CU", cursive;
+} 
 
 nav .all-tab {
     background-color: transparent;
