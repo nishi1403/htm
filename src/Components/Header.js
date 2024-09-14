@@ -10,7 +10,7 @@ const Header = () => {
     <>
     <nav className="navbar navbar-expand-lg  ">
   <div className="container-fluid all-tab ">
-      <img src={hand}  className='logo'/><b>VOCAL FOR LOCAL</b>
+      <img src={hand}  className='logo'/><b>GoLocalGrow</b>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
