@@ -25,19 +25,15 @@ const Contact = () => {
           <div className="col col-sm-12 col-xl-6">
             <div className="content-guj">
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
-                expedita molestiae sint reprehenderit, voluptate, quia aperiam
-                animi fuga modi asperiores porro ipsam quidem, cupiditate
-                excepturi recusandae tempore perspiciatis corrupti. Consequatur
-                corporis iste ipsum, quas nostrum repellat pariatur ad minus
-                dolorum soluta voluptas facere nisi error cum reprehenderit
-                obcaecati nihil, vitae quibusdam quo libero placeat assumenda?
-                Cum libero illo necessitatibus pariatur debitis ad, magni fugiat
-                dolorem aliquid sit voluptate quae assumenda, facere fugit! Vel
-                vero molestias maxime ratione aut explicabo rerum recusandae
-                nisi sapiente quisquam nobis, veniam, quibusdam, asperiores
-                culpa iste minima voluptas. Dolorem aliquid ipsa aperiam, rerum
-                repellendus nostrum accusantium?
+              We’d love to hear from you! If you have any questions or suggestions about our platform, please reach out.
+              At GoLocalGrowth, we’re here to help you connect with local street vendors and homemade food providers.
+              Feel free to drop us a message with your inquiries or feedback. Your input helps us improve and better serve our community. 
+              Thank you for supporting local businesses!
+              <br/><br/>
+              અમને તમારી પાસે થી સાંભળવાનું ખૂબ જ પસંદ છે! અમારી પ્લેટફોર્મ વિશે કોઈ પ્રશ્નો કે સૂચનાઓ હોય તો કૃપા કરીને અમને સંપર્ક કરો.
+               ગોલોકલગ્રોથ પર, અમે સ્થાનિક સ્ટ્રીટ વેન્ડરો અને હોમમેડ ફૂડ પ્રોવાઇડરો સાથે તમને જોડવામાં મદદ કરવા માટે અહીં છીએ. 
+               તમારા પ્રશ્નો અથવા પ્રતિસાદ સાથે અમને મેસેજ મોકલો. તમારી નોંધ આપણા સમુદાયને સારી રીતે સેવા આપવાનો અમારું ઉદ્દેશ છે. 
+               સ્થાનિક વ્યવસાયોને સપોર્ટ કરવા બદલ આભાર!
               </p>
             </div>
           </div>
