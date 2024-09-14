@@ -26,7 +26,7 @@
 .vendor-info {
    
     bottom: 0;
-    background-color: rgba(212, 179, 102, 0.493);
+    background-color: rgba(251, 217, 172, 0.848);
 
     text-align: center;
     padding: 10px;
@@ -74,7 +74,7 @@
     
     
     transform: translate(-50%, -50%);
-    background-color: rgba(255, 229, 204, 0.9);
+    background-color: rgba(112, 54, 0, 0.9);
     color: #080808;
     
     border-radius: 5px;
@@ -83,3 +83,41 @@
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
+.vendor-card {
+    position: relative;
+    width: 100%; /* Set width as per your layout */
+  }
+  
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    text-align: center;
+  }
+  
+  .image-container:hover .overlay-text {
+    opacity: 1;
+  }
+  
+  .vendor-info {
+   text-decoration: none;
+   margin-top:0%;/* Hide the original vendor info as it is now on hover */
+  }
+  
