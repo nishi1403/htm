@@ -8,7 +8,7 @@ const Contact = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col col-sm-12 col-xl-6">
+          <div className="col col-12 col-sm-12 col-xl-6">
             <div className="content-img">
               <form>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -18,7 +18,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="col col-sm-12 col-xl-6">
+          <div className="col col-12 col-sm-12 col-xl-6">
             <div className="content-guj">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad

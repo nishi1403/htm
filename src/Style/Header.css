@@ -33,3 +33,11 @@ nav .tab li:hover{
     font-size: large;
 
 }
+button{
+    border: none;
+    background-color: transparent;
+    font-weight: 800;
+    
+
+   
+}

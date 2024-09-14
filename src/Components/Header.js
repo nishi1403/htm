@@ -29,6 +29,9 @@ const Header = () => {
         <li className="nav-item">
           <AnchorLink className="nav-link" href="#contact">Contact</AnchorLink>
         </li>
+        <li className="nav-item">
+          <button>Login</button>
+        </li>
         
       </ul>
     </div>
