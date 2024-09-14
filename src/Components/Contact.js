@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/Contact.css";
-import h2 from "./Images/h2.jpg";
+
+
 const Contact = () => {
   return (
     <div id="contact" className="cont">
@@ -8,17 +9,21 @@ const Contact = () => {
 
       <div className="container">
         <div className="row">
-          <div className="col col-sm-12 col-xl-6">
+          <div className="col col-12 col-sm-12 col-xl-6">
             <div className="content-img">
-              <form>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Consequatur ipsum, vitae repellat et iste id corrupti illo nobis
-                veritatis doloremque beatae quaerat adipisci natus modi sapiente
-                quisquam maiores consectetur autem.
+              <form action="https://formspree.io/f/mdknvlgj" method="POST">
+                {/* Self-closing input tags */}
+                <input type="text" placeholder="Username" name="username" required autoComplete="off" />
+                <input type="email" name="Email" placeholder="Email" autoComplete="off" required />
+                <textarea name="Message" id="" cols="30" rows="10" required autoComplete="off" placeholder="Enter your message"></textarea>
+                
+                {/* Corrected self-closing input tag */}
+                <input type="submit" value="Submit" />
               </form>
             </div>
           </div>
-          <div className="col col-sm-12 col-xl-6">
+          
+          <div className="col col-12 col-sm-12 col-xl-6">
             <div className="content-guj">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad
