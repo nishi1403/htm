@@ -6,6 +6,7 @@ import img1 from './Images/slider1.jpg';
 import img2 from './Images/slider2.jpg';
 import img3 from './Images/pottery.JPG';
 import img4 from './Images/h4.jpg';
+import { Link } from 'react-router-dom';
 
 const Carousel = () => {
   useEffect(() => {
@@ -72,60 +73,60 @@ const Carousel = () => {
         <div className="item">
           <img src={img1} alt="Slider 1" />
           <div className="content">
-            <div className="author">LUNDEV</div>
-            <div className="title">DESIGN SLIDER</div>
-            <div className="topic">ANIMAL</div>
+            <div className="author">From</div>
+            <div className="title">Streets To</div>
+            <div className="topic">Seats</div>
             <div className="des">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laborum.
+              From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-              <button>SEE MORE</button>
-              <button>SUBSCRIBE</button>
+            <Link to='/sections'><button>SEE MORE</button></Link>
+              {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
         </div>
         <div className="item">
           <img src={img2} alt="Slider 2" />
           <div className="content">
-            <div className="author">LUNDEV</div>
-            <div className="title">DESIGN SLIDER</div>
-            <div className="topic">ANIMAL</div>
+            <div className="author">From</div>
+            <div className="title">Streets To</div>
+            <div className="topic">Seats</div>
             <div className="des">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laborum.
+              From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-              <button>SEE MORE</button>
-              <button>SUBSCRIBE</button>
+            <Link to='/sections'><button>SEE MORE</button></Link>
+              {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
         </div>
         <div className="item">
           <img src={img3} alt="Slider 3" />
           <div className="content">
-            <div className="author">LUNDEV</div>
-            <div className="title">DESIGN SLIDER</div>
-            <div className="topic">ANIMAL</div>
+            <div className="author">From</div>
+            <div className="title">Streets To</div>
+            <div className="topic">Seats</div>
             <div className="des">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laborum.
+              From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-              <button>SEE MORE</button>
-              <button>SUBSCRIBE</button>
+            <Link to='/sections'><button>SEE MORE</button></Link>
+              {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
         </div>
         <div className="item">
           <img src={img4} alt="Slider 4" />
           <div className="content">
-            <div className="author">LUNDEV</div>
-            <div className="title">DESIGN SLIDER</div>
-            <div className="topic">ANIMAL</div>
+            <div className="author">From</div>
+            <div className="title">Streets To</div>
+            <div className="topic">Seats</div>
             <div className="des">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, laborum.
+              From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-              <button>SEE MORE</button>
-              <button>SUBSCRIBE</button>
+              <Link to='/sections'><button>SEE MORE</button></Link>
+              {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
         </div>
@@ -135,31 +136,15 @@ const Carousel = () => {
       <div className="thumbnail">
         <div className="item">
           <img src={img1} alt="Thumbnail 1" />
-          <div className="content">
-            <div className="title">Name Slider</div>
-            <div className="description">Description</div>
-          </div>
         </div>
         <div className="item">
           <img src={img2} alt="Thumbnail 2" />
-          <div className="content">
-            <div className="title">Name Slider</div>
-            <div className="description">Description</div>
-          </div>
         </div>
         <div className="item">
           <img src={img3} alt="Thumbnail 3" />
-          <div className="content">
-            <div className="title">Name Slider</div>
-            <div className="description">Description</div>
-          </div>
         </div>
         <div className="item">
           <img src={img4} alt="Thumbnail 4" />
-          <div className="content">
-            <div className="title">Name Slider</div>
-            <div className="description">Description</div>
-          </div>
         </div>
       </div>
 
