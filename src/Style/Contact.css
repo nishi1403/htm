@@ -3,3 +3,16 @@
     justify-content: center;
 
 }
+.cont .content-img{
+    margin: 3%;
+    text-align: center;
+    padding: 5%;
+    border:1px solid black;
+    border-radius: 10px;
+
+}
+
+.cont .content-guj{
+    text-align:justify;
+    padding: 2%;
+}
