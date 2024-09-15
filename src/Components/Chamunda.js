@@ -3,6 +3,8 @@ import p3 from './Images/p3.jpeg'
 import p4 from './Images/p4.jpeg'
 import p5 from './Images/p5.jpeg'
 import '../Style/chamunda.css'
+import { Link } from 'react-router-dom'
+import { Button } from 'react-bootstrap'
 const Chamunda = () => {
   return (
     <>
@@ -27,6 +29,9 @@ const Chamunda = () => {
                 </div>
             </div>
         </div>
+        <Link to="https://docs.google.com/forms/d/e/1FAIpQLSebHnOhVCErfwhnfCQHnUyDl2FwCwrnpWAB2Crbj23JFsxkaQ/viewform?vc=0&c=0&w=1&flr=0">
+            <Button>Review</Button>
+          </Link><br/>
     </div>
     </>
   )
