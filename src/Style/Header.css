@@ -44,3 +44,18 @@ button{
 
    
 }
+/* Custom styles to enable hover functionality for Bootstrap dropdowns */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Adjust this if necessary */
+}
+
+.dropdown-menu {
+    display: none; /* Hide the dropdown by default */
+}
+
+.nav-item.dropdown:hover > .nav-link {
+    color: #fff;
+    text-decoration: none;
+    color: black; /* Optional: Change color of the link when hovering */
+}

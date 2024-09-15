@@ -1,0 +1,16 @@
+.chandni{
+    text-align: center;
+}
+.chandni .chandni-img img{
+    width: 100%;
+    height: 50vh;
+}
+.cham-prod img {
+    width: 90%;
+    border-radius: 10px 0 10px 0;
+    height: 40vh;
+
+}
+.cham-prod   :hover{
+    width: 100%;
+}

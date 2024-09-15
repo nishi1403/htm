@@ -1,11 +1,12 @@
 [
     {
         "id":1,
-        "image":"Image/artistic 5.jpg",
-        "title":"ABC",
-         "address":"THIS IS DUMMY DATA ",
-         "Area":"Nana Mava",
-         "Redirect":""
+        "image":"Image/p1.jpeg",
+        "title":"Chandni Ben Whatsapp",
+         "address":"Contact her on whatsapp ",
+         "Contact":123456789,
+         "Area":"Raiya Road",
+         "Redirect":"/chandni"
         
     },
     {
@@ -13,6 +14,7 @@
         "image":"Image/artistic 5.jpg",
         "title":"ABC",
          "address":"THIS IS DUMMY DATA ",
+         "Contact":9265879227,
          "Area":"Nanavati",
          "Redirect":""
     },
@@ -21,6 +23,7 @@
         "image":"Image/artistic 5.jpg",
         "title":"ABC",
          "address":"THIS IS DUMMY DATA ",
+         "Contact":9265879227,
          "Area":"Ramapir chowkdi",
          "Redirect":""
     },
@@ -29,6 +32,7 @@
         "image":"Image/artistic 5.jpg",
         "title":"ABC",
          "address":"THIS IS DUMMY DATA ",
+         "Contact":9265879227,
          "Area":"Raiya chowkdi",
          "Redirect":""
     }
