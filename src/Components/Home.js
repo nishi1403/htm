@@ -3,7 +3,6 @@ import About from './About'
 import Sections from './Sections'
 import Contact from './Contact'
 import Header from './Header'
-import Information from './Information'
 import Carousel from './Carousel'
 
 
@@ -14,7 +13,7 @@ const Home = () => {
       <Header/>
     <Carousel/>
     <br/>
-    <Information/><br/>
+  
     <Sections/>
     <br/>
     <About/>
