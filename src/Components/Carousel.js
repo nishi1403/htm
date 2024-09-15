@@ -1,44 +1,46 @@
-import React, { useEffect } from 'react';
-import '../Style/carousel.css'  // Keep your CSS
+import React, { useEffect } from "react";
+import "../Style/carousel.css"; // Keep your CSS
 
 // Import the images
-import img1 from './Images/slider1.jpg';
-import img2 from './Images/slider2.jpg';
-import img3 from './Images/pottery.JPG';
-import img4 from './Images/h4.jpg';
-import { Link } from 'react-router-dom';
+import img1 from "./Images/slider1.jpg";
+import img2 from "./Images/slider2.jpg";
+import img3 from "./Images/pottery.JPG";
+import img4 from "./Images/h4.jpg";
+import { Link } from "react-router-dom";
 
 const Carousel = () => {
   useEffect(() => {
-    const nextDom = document.getElementById('next');
-    const prevDom = document.getElementById('prev');
-    const carouselDom = document.querySelector('.carousel');
-    const SliderDom = carouselDom.querySelector('.list');
-    const thumbnailBorderDom = document.querySelector('.thumbnail');
-    const thumbnailItemsDom = thumbnailBorderDom.querySelectorAll('.item');
+    const nextDom = document.getElementById("next");
+    const prevDom = document.getElementById("prev");
+    const carouselDom = document.querySelector(".carousel");
+    const SliderDom = carouselDom.querySelector(".list");
+    const thumbnailBorderDom = document.querySelector(".thumbnail");
+    const thumbnailItemsDom = thumbnailBorderDom.querySelectorAll(".item");
     const timeRunning = 3000;
     const timeAutoNext = 7000;
 
     thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
 
     const showSlider = (type) => {
-      const SliderItemsDom = SliderDom.querySelectorAll('.list .item');
-      const thumbnailItemsDom = document.querySelectorAll('.thumbnail .item');
+      const SliderItemsDom = SliderDom.querySelectorAll(".list .item");
+      const thumbnailItemsDom = document.querySelectorAll(".thumbnail .item");
 
-      if (type === 'next') {
+      if (type === "next") {
         SliderDom.appendChild(SliderItemsDom[0]);
         thumbnailBorderDom.appendChild(thumbnailItemsDom[0]);
-        carouselDom.classList.add('next');
+        carouselDom.classList.add("next");
       } else {
         SliderDom.prepend(SliderItemsDom[SliderItemsDom.length - 1]);
-        thumbnailBorderDom.prepend(thumbnailItemsDom[thumbnailItemsDom.length - 1]);
-        carouselDom.classList.add('prev');
+        thumbnailBorderDom.prepend(
+          thumbnailItemsDom[thumbnailItemsDom.length - 1]
+        );
+        carouselDom.classList.add("prev");
       }
 
       clearTimeout(runTimeOut);
       runTimeOut = setTimeout(() => {
-        carouselDom.classList.remove('next');
-        carouselDom.classList.remove('prev');
+        carouselDom.classList.remove("next");
+        carouselDom.classList.remove("prev");
       }, timeRunning);
 
       clearTimeout(runNextAuto);
@@ -53,11 +55,11 @@ const Carousel = () => {
     }, timeAutoNext);
 
     nextDom.onclick = () => {
-      showSlider('next');
+      showSlider("next");
     };
 
     prevDom.onclick = () => {
-      showSlider('prev');
+      showSlider("prev");
     };
 
     return () => {
@@ -80,7 +82,9 @@ const Carousel = () => {
               From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-            <Link to='/sections'><button>SEE MORE</button></Link>
+              <Link to="/sections">
+                <button>SEE MORE</button>
+              </Link>
               {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
@@ -95,7 +99,9 @@ const Carousel = () => {
               From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-            <Link to='/sections'><button>SEE MORE</button></Link>
+              <Link to="/sections">
+                <button>SEE MORE</button>
+              </Link>
               {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
@@ -110,7 +116,9 @@ const Carousel = () => {
               From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-            <Link to='/sections'><button>SEE MORE</button></Link>
+              <Link to="/sections">
+                <button>SEE MORE</button>
+              </Link>
               {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
@@ -125,7 +133,9 @@ const Carousel = () => {
               From Streets to Homes, We Deliver Happiness!
             </div>
             <div className="buttons">
-              <Link to='/sections'><button>SEE MORE</button></Link>
+              <Link to="/sections">
+                <button>SEE MORE</button>
+              </Link>
               {/* <button>SUBSCRIBE</button> */}
             </div>
           </div>
