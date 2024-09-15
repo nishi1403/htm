@@ -1,6 +1,13 @@
 import React from "react";
-import h2 from "./Images/h2.jpg";
+import tiffin from "./Images/tiffin.jpg"
+import sesonal from "./Images/1.jpg"
+import regular from "./Images/h2.jpg"
+import pottery from "./Images/2.jpg"
+import flower from "./Images/flower vendor.jpg"
+import artist from "./Images/artistic 5.jpg"
+
 import { Link } from "react-router-dom";
+import '../Style/Section.css'
 
 const Sections = () => {
   return (
@@ -13,7 +20,7 @@ const Sections = () => {
               <div className="vendor-card">
                 <Link to="/food">
                   <div className="image-container">
-                    <img src={h2} alt="Tiffin Services" />
+                    <img src={tiffin} alt="Tiffin Services" />
                     <div className="overlay-text">
                       From Our Kitchen to Your Heart – Meals with a Mission.
                     </div>
@@ -23,12 +30,12 @@ const Sections = () => {
                   <p>Tiffin Services</p>
                 </div>
               </div>
-            </div><br/><br/>
+            </div>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/seasonal">
                   <div className="image-container">
-                    <img src={h2} alt="Seasonal" />
+                    <img src={sesonal} alt="Seasonal" />
                     <div className="overlay-text">
                       Seasonal Treasures for a Limited Time – Don’t Miss Out!
                     </div>
@@ -38,12 +45,12 @@ const Sections = () => {
                   <p>Seasonal</p>
                 </div>
               </div>
-            </div><br/><br/>
+            </div>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/regular">
                   <div className="image-container">
-                    <img src={h2} alt="Regular" />
+                    <img src={regular} alt="Regular" />
                     <div className="overlay-text">
                       Your Daily Needs, Right Around the Corner.
                     </div>
@@ -55,13 +62,13 @@ const Sections = () => {
               </div>
             </div>
           </div>
-          <br/><br/>
+
           <div className="row">
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/potery">
                   <div className="image-container">
-                    <img src={h2} alt="Potery" />
+                    <img src={pottery} alt="Potery" />
                     <div className="overlay-text">
                       From Earth to Art – Pottery that Tells a Story
                     </div>
@@ -71,12 +78,12 @@ const Sections = () => {
                   <p>Potery</p>
                 </div>
               </div>
-            </div><br/><br/>
+            </div>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/flower">
                   <div className="image-container">
-                    <img src={h2} alt="Flower" />
+                    <img src={flower} alt="Flower" />
                     <div className="overlay-text">
                       Flowers that Speak, Art that Sings – Beauty in Every Petal
                       and Stroke
@@ -87,12 +94,12 @@ const Sections = () => {
                   <p>Flower</p>
                 </div>
               </div>
-            </div><br/><br/>
+            </div>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/artistic">
                   <div className="image-container">
-                    <img src={h2} alt="Artistic" />
+                    <img src={artist} alt="Artistic" />
                     <div className="overlay-text">
                       Bringing Beauty to Life – Art and Blooms that Inspire.
                     </div>
