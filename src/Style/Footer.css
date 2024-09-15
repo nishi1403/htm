@@ -1,7 +1,88 @@
-.footer
-{
-    background-color: #867070;
-    height: 100%;
-    color: #F5EBEB;text-align: center;
-    font-size: larger;
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px 40px;
+}
+
+.footer-section.brand {
+  flex: 2;
+}
+
+.footer-section h1,
+.footer-section h3 {
+  margin-bottom: 20px;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5em;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #f2f2f2;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px 0;
+  border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/*Hover effect */
+.social-icons a:hover {
+  color: #f39c12; /* Change to your desired color */
+  transform: scale(1.2); /* Slight scaling effect */
+}
+
+/* Additional hover effect for transitions */
+.social-icons a:focus,
+.social-icons a:active {
+  color: #f39c12;
+  outline: none;
+  transform: scale(1.2);
 }
