@@ -5,7 +5,7 @@ import "../Style/carousel.css"; // Keep your CSS
 import img1 from "./Images/slider1.jpg";
 import img2 from "./Images/slider2.jpg";
 import img3 from "./Images/pottery.JPG";
-import img4 from "./Images/h4.jpg";
+import img4 from "./Images/2.jpg";
 import { Link } from "react-router-dom";
 
 const Carousel = () => {
