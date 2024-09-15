@@ -28,7 +28,7 @@ const Chamunda = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br/>
         <Link to="https://docs.google.com/forms/d/e/1FAIpQLSebHnOhVCErfwhnfCQHnUyDl2FwCwrnpWAB2Crbj23JFsxkaQ/viewform?vc=0&c=0&w=1&flr=0">
             <Button>Review</Button>
           </Link><br/>

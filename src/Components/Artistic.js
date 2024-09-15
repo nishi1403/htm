@@ -6,12 +6,14 @@ import Art from "./art.json";
 import "../Style/seasonal.css";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
+
 const Artistic = () => {
   return (
     <>
       <div className="art">
         
         <h1>ARTISTIC</h1>
+     
         {Art.map((art) => {
           return (
             <>

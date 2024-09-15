@@ -23,7 +23,7 @@ const Sections = () => {
                   <p>Tiffin Services</p>
                 </div>
               </div>
-            </div>
+            </div><br/><br/>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/seasonal">
@@ -38,7 +38,7 @@ const Sections = () => {
                   <p>Seasonal</p>
                 </div>
               </div>
-            </div>
+            </div><br/><br/>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/regular">
@@ -55,7 +55,7 @@ const Sections = () => {
               </div>
             </div>
           </div>
-
+          <br/><br/>
           <div className="row">
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
@@ -71,7 +71,7 @@ const Sections = () => {
                   <p>Potery</p>
                 </div>
               </div>
-            </div>
+            </div><br/><br/>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/flower">
@@ -87,7 +87,7 @@ const Sections = () => {
                   <p>Flower</p>
                 </div>
               </div>
-            </div>
+            </div><br/><br/>
             <div className="col col-sm-12 col-xl-4">
               <div className="vendor-card">
                 <Link to="/artistic">

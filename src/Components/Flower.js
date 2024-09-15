@@ -6,6 +6,7 @@ import Flow from "./flower.json";
 import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 
+
 const Flower = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Flower = () => {
     <div className="flower">
       
       <h1>FLOWER</h1>
+     
       {Flow.map((flower) => {
           return (
             <>

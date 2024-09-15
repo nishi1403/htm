@@ -1,0 +1,39 @@
+
+ 
+  
+  .container {
+    width: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  #result {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .result-item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .result-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
+  

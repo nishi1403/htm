@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { Button } from "react-bootstrap";
 import pottery from "./pot.json";
 
+
 const Potery = () => {
   return (
       <>
@@ -12,6 +13,7 @@ const Potery = () => {
       <div className="pot">
         
         <h1>POTERY</h1>
+        
         {pottery.map((pot) => {
           return (
             <>
