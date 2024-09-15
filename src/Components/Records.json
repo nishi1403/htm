@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "image":"Image/artistic 5.jpg",
+        "title":"ABC",
+         "address":"THIS IS DUMMY DATA ",
+         "Area":"Nana Mava"
+    },
+    {
+        "id":2,
+        "image":"Image/artistic 5.jpg",
+        "title":"ABC",
+         "address":"THIS IS DUMMY DATA ",
+         "Area":"Nanavati"
+    },
+    {
+        "id":3,
+        "image":"Image/artistic 5.jpg",
+        "title":"ABC",
+         "address":"THIS IS DUMMY DATA ",
+         "Area":"Ramapir chowkdi"
+    },
+    {
+        "id":4,
+        "image":"Image/artistic 5.jpg",
+        "title":"ABC",
+         "address":"THIS IS DUMMY DATA ",
+         "Area":"Raiya chowkdi"
+    }
+]
