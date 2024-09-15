@@ -1,6 +1,11 @@
 .cont{
     text-align: center;
     justify-content: center;
+    background-image: url('https://t4.ftcdn.net/jpg/02/16/23/29/360_F_216232980_OHozVMYi0Y2pp9zMSpHzWIf1k76c74nL.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ccc     ;
+    font-size: large;
 
 }
 .cont .content-img{
