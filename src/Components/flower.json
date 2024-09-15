@@ -1,11 +1,12 @@
 [
     {
         "id":1,
-        "image":"Image/artistic 5.jpg",
-        "title":"ABC",
-         "address":"THIS IS DUMMY DATA ",
-         "Area":"Nana Mava",
-         "Redirect":""
+        "image":"Image/p3.jpeg",
+        "title":"Chamunda Flower Service",
+         "address":"Alap Green City ",
+         "Contact":9265879227,
+         "Area":"Raiya Road",
+         "Redirect":"/chamunda"
         
     },
     {
@@ -13,6 +14,7 @@
         "image":"Image/artistic 5.jpg",
         "title":"ABC",
          "address":"THIS IS DUMMY DATA ",
+         "Contact":9265879227,
          "Area":"Nanavati",
          "Redirect":""
     },
@@ -21,6 +23,7 @@
         "image":"Image/artistic 5.jpg",
         "title":"ABC",
          "address":"THIS IS DUMMY DATA ",
+         "Contact":9265879227,
          "Area":"Ramapir chowkdi",
          "Redirect":""
     },
@@ -29,6 +32,7 @@
         "image":"Image/artistic 5.jpg",
         "title":"ABC",
          "address":"THIS IS DUMMY DATA ",
+         "Contact":9265879227,
          "Area":"Raiya chowkdi",
          "Redirect":""
     }

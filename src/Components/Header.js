@@ -20,8 +20,20 @@ const Header = () => {
           <AnchorLink className="nav-link active" aria-current="page" href="#home">Home</AnchorLink>
         </li>
         
-        <li className="nav-item">
-          <AnchorLink className="nav-link" href="#sections">Section</AnchorLink>
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#sections" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           Section
+          </a>
+          <ul class="dropdown-menu ">
+            <li><Link class="dropdown-item" to='/food'>Tiffin services</Link></li>
+            <li><Link class="dropdown-item" to='/seasonal'>Seasonal</Link></li>
+            <li><Link class="dropdown-item" to='/regular'>Regular</Link></li>
+            <li><Link class="dropdown-item" to='/potery'>Potery</Link></li>
+            <li><Link class="dropdown-item" to='/flower'>Flower</Link></li>
+            <li><Link class="dropdown-item" to='/artistic'>Artistic</Link></li>
+            
+          </ul>
         </li>
         <li className="nav-item">
           <AnchorLink className="nav-link" href="#about">About</AnchorLink>

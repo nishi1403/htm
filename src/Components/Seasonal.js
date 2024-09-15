@@ -2,6 +2,8 @@ import React from "react";
 import h2 from "./Images/h2.jpg";
 import record from './Records.json'
 import "../Style/seasonal.css";
+import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 
 const Seasonal = () => {
   return (
@@ -26,6 +28,8 @@ const Seasonal = () => {
               {Records.address}<br/>
               {Records.Area}
             </p>
+            <br/><br/>
+            <Link to={Records.Redirect}><Button>Products</Button></Link>
             
           </div>
         </div>
